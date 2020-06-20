@@ -1,0 +1,74 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hi, how can I assist you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Take Care!", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "appointment",
+         "patterns": ["I'd like to schedule an appointment", "appointment", "need an appointment"],
+         "responses": ["Let me check the calendar", "Ok, I will see what time slots are available", "Hold on while I check the availabilities"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Healexa.", "I'm Healexa!", "I'm Healexa aka Health assistant!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 8am-5pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "visit",
+         "patterns": ["see a doctor", "video call a doctor","consultation with doctor online", "nurse"],
+         "responses": ["You are able to video call a doctor simply click consult a doctor, for physical appointments click nearby hospitals"],
+         "context_set": ""
+        },
+        {"tag": "selfdiag",
+         "patterns": ["how do I self diagnose", "show my symptoms"],
+         "responses": ["You are able to self diagnose your symptoms simply click consult self-diagnosis tab and tell us about your symptoms"],
+         "context_set": ""
+        },
+        {"tag": "hospital",
+         "patterns": ["find a hospital", "physically visit a doctor","nearby pharmacy"],
+         "responses": ["For physical access to a doctor, click nearby hospitals"],
+         "context_set": ""
+        },
+        {"tag": "prescription",
+         "patterns": ["check my prescription", "prescribed medicine","how many times a day to apply my medicine"],
+         "responses": ["For information on your medicines please click the prescriptions tab"],
+         "context_set": ""
+        },
+        {"tag": "ruff",
+                "patterns": ["dandruff"],
+                "responses": ["Selsun Blue Shampoo" ],
+                "context_set": ""
+               },
+        {"tag": "vomit",
+        "patterns": ["diarrhea","vomiting"],
+        "responses": ["Drink ORS 2-3 times a day"],
+        "context_set": ""
+        },
+        {"tag": "cold",
+                "patterns": ["I have a cough", "nose is stuffy", "mucus"],
+                "responses": ["Try Panadol it's easily obtainable at the local pharmacy, read the instructions on the bottle", "Try Tylenol it's easily obtainable at the local pharmacy, read the instructions on the bottle", "Bed rest and warm fluids are your best bet, maybe try panadol or Tylenol." ],
+                "context_set": ""
+               },
+        {"tag": "brain",
+        "patterns": ["migrain", "headache"],
+        "responses": ["Try advil it's easily obtainable at the local pharmacy", "Try panadol it's easily obtainable at the local pharmacy" ],
+        "context_set": ""
+        }
+        
+   ]
+}
